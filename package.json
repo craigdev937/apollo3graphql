@@ -1,0 +1,36 @@
+{
+  "name": "apollo3graphql",
+  "version": "1.0.0",
+  "description": "Initial setup of the project.  Created with Express, Apollo Server, MongoDB.  React, Vite, React Router, and Apollo Client.",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "18.x",
+    "npm": "8.x"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indigomx9/apollo3graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indigomx9/apollo3graphql/issues"
+  },
+  "homepage": "https://github.com/indigomx9/apollo3graphql#readme",
+  "dependencies": {
+    "apollo-server": "^3.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "graphql": "^16.5.0",
+    "mongoose": "^6.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
