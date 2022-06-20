@@ -1,18 +1,8 @@
 import "dotenv/config";
 import express from "express";
-import { gql, ApolloServer } from "apollo-server-express";
-
-const typeDefs = gql`
-    type Query {
-        hello: String
-    }
-`;
-
-const resolvers = {
-    Query: {
-        hello: () => "Apollo Server 2022"
-    }
-};
+import { ApolloServer } from "apollo-server-express";
+import { typeDefs } from "./graphql/schema.js";
+import { resolvers } from "./graphql/resolvers.js";
 
 (async () => {
     const app = express();
