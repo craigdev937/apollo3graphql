@@ -25,7 +25,6 @@
   "homepage": "https://github.com/indigomx9/apollo3graphql#readme",
   "dependencies": {
     "apollo-server": "^3.9.0",
-    "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "graphql": "^16.5.0",
     "mongoose": "^6.4.0"

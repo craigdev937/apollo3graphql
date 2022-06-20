@@ -1,8 +1,11 @@
-// Link to the Models.
+import { ClientRes } from "./ClientRes.js";
 
 export const resolvers = {
     Query: {
-        hello: () => "Apollo Server 2022"
+        ...ClientRes.Query,
+    },
+    Mutation: {
+        ...ClientRes.Mutation,
     }
 };
 
